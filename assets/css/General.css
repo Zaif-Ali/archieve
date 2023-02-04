@@ -79,13 +79,13 @@ body {
     /* background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240); */
 }
 .darker{
-   background:  #030239 
+   background: rgb(17 ,24 ,39)
 }
 .darker2 {
-    background: #090134;
+    background: rgb(17 ,24 ,39);
 }
 .darkest{
-    background: #111028
+    background: rgb(17 ,24 ,39)
 }
 h1,
 h2,
@@ -99,7 +99,7 @@ h6 {
     font-weight: 500;
 }
 .text {
-    color: rgb(209 213 219 );
+    color: rgb(123, 129, 139);
 }
 a,
 a:hover,

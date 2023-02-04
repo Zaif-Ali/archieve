@@ -15,25 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/PrivacyPolicy": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/PrivacyPolicy.js"
-    ],
-    "/Tokenomics": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Tokenomics.js"
-    ],
-    "/WhitePaper": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/WhitePaper.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -44,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/about": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/about.js"
     ]
   },
   "ampFirstPages": []
