@@ -15,15 +15,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/TermsandConditions": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/TermsandConditions.js"
+      "static/chunks/pages/index.js"
     ],
-    "/Tokenomics": [
+    "/OperatingAgreement": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Tokenomics.js"
+      "static/chunks/pages/OperatingAgreement.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

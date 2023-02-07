@@ -68,7 +68,7 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                 </Link>
 
                 <Link href={" /OperatingAgreement"}>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="OperatingAgreement">
                     Operating Agreement
                   </a>
                 </Link>
@@ -86,27 +86,31 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                 Developer
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  About us
-                </a>
-                <a className="dropdown-item" href="#">
-                  Privacy Policy
-                </a>
-                <a className="dropdown-item" href="#">
-                  Terms and Condition
-                </a>
-                <a className="dropdown-item" href="#">
-                  White Paper
-                </a>
-                <a className="dropdown-item" href="#">
-                  Tokenomics
-                </a>
-                <a className="dropdown-item" href="#">
-                  Roadmap
-                </a>
-                <a className="dropdown-item" href="#">
-                  Operating Agreement
-                </a>
+                <Link href={"/PlatformEngineers"}>
+                  <a className="dropdown-item" href="PlatformEngineers">
+                    Platform Engineers
+                  </a>
+                </Link>
+                <Link href={"/GameDevelopers"}>
+                  <a className="dropdown-item" href="GameDevelopers">
+                    Game Developers
+                  </a>
+                </Link>
+                <Link href={"/Artists"}>
+                  <a className="dropdown-item" href="Artists">
+                    Artists
+                  </a>
+                </Link>
+                <Link href={"/ProjectArchitects"}>
+                  <a className="dropdown-item" href="ProjectArchitects">
+                    Project Architects
+                  </a>
+                </Link>
+                <Link href={"/EventCoordinator"}>
+                  <a className="dropdown-item" href="EventCoordinator">
+                    Event Coordinator
+                  </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item dropdown">
@@ -121,27 +125,37 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                 Community
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  About us
-                </a>
-                <a className="dropdown-item" href="#">
-                  Privacy Policy
-                </a>
-                <a className="dropdown-item" href="#">
-                  Terms and Condition
-                </a>
-                <a className="dropdown-item" href="#">
-                  White Paper
-                </a>
-                <a className="dropdown-item" href="#">
-                  Tokenomics
-                </a>
-                <a className="dropdown-item" href="#">
-                  Roadmap
-                </a>
-                <a className="dropdown-item" href="#">
-                  Operating Agreement
-                </a>
+                <Link href={"/DAOLandingPage"}>
+                  <a className="dropdown-item" href="DAOLandingPage">
+                    DAO Landing Page
+                  </a>
+                </Link>
+
+                <Link href={"/CurrentProjects"}>
+                  <a className="dropdown-item" href="CurrentProjects">
+                    Current Projects
+                  </a>
+                </Link>
+                <Link href={"/UpcomingProjects"}>
+                  <a className="dropdown-item" href="UpcomingProjects">
+                    Upcoming Projects
+                  </a>
+                </Link>
+                <Link href={"/PastProjects"}>
+                  <a className="dropdown-item" href="PastProjects">
+                    Past Projects
+                  </a>
+                </Link>
+                <Link href={"/ParticipationEvents"}>
+                  <a className="dropdown-item" href="ParticipationEvents">
+                    Participation Events
+                  </a>
+                </Link>
+                <Link href={"/Proposals"}>
+                  <a className="dropdown-item" href="Proposals">
+                    Proposals
+                  </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item dropdown">
@@ -156,27 +170,36 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                 Marketplace
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  About us
-                </a>
-                <a className="dropdown-item" href="#">
-                  Privacy Policy
-                </a>
-                <a className="dropdown-item" href="#">
-                  Terms and Condition
-                </a>
-                <a className="dropdown-item" href="#">
-                  White Paper
-                </a>
-                <a className="dropdown-item" href="#">
-                  Tokenomics
-                </a>
-                <a className="dropdown-item" href="#">
-                  Roadmap
-                </a>
-                <a className="dropdown-item" href="#">
-                  Operating Agreement
-                </a>
+                <Link href={"/Stake"}>
+                  <a className="dropdown-item" href="Stake">
+                    Stake
+                  </a>
+                </Link>
+                <Link href={"/Minting"}>
+                  <a className="dropdown-item" href="Minting">
+                    Minting
+                  </a>
+                </Link>
+                <Link href={"/P2PTrade"}>
+                  <a className="dropdown-item" href="P2PTrade">
+                    P2P Trade
+                  </a>
+                </Link>{" "}
+                <Link href={"/Launchpad"}>
+                  <a className="dropdown-item" href="Launchpad">
+                    Launch pad
+                  </a>
+                </Link>{" "}
+                <Link href={"/Airdrop"}>
+                  <a className="dropdown-item" href="Airdrop">
+                    Airdrop
+                  </a>
+                </Link>{" "}
+                <Link href={"/Shop"}>
+                  <a className="dropdown-item" href="Shop">
+                    Shop
+                  </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item dropdown">
@@ -191,27 +214,46 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                 Ecosystem
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  About us
-                </a>
-                <a className="dropdown-item" href="#">
-                  Privacy Policy
-                </a>
-                <a className="dropdown-item" href="#">
-                  Terms and Condition
-                </a>
-                <a className="dropdown-item" href="#">
-                  White Paper
-                </a>
-                <a className="dropdown-item" href="#">
-                  Tokenomics
-                </a>
-                <a className="dropdown-item" href="#">
-                  Roadmap
-                </a>
-                <a className="dropdown-item" href="#">
-                  Operating Agreement
-                </a>
+                <Link href={"/Forums"}>
+                  <a className="dropdown-item" href="Forums">
+                    Forum's
+                  </a>
+                </Link>
+                <Link href={"/Gaming"}>
+                  <a className="dropdown-item" href="Gaming">
+                    Gaming
+                  </a>
+                </Link>
+                <Link href={"/Social"}>
+                  <a className="dropdown-item" href="Social">
+                    Social
+                  </a>
+                </Link>
+                <Link href={"/SocialLinks"}>
+                  <a className="dropdown-item" href="SocialLinks">
+                    Social Links
+                  </a>
+                </Link>
+                <Link href={"/Charity"}>
+                  <a className="dropdown-item" href="Charity">
+                    Charity
+                  </a>
+                </Link>
+                <Link href={"/Conservation"}>
+                  <a className="dropdown-item" href="Conservation">
+                    Conservation
+                  </a>
+                </Link>
+                <Link href={"/Agriculture"}>
+                  <a className="dropdown-item" href="Agriculture">
+                    Agriculture
+                  </a>
+                </Link>
+                <Link href={"/Explore"}>
+                  <a className="dropdown-item" href="Explore">
+                    Explore
+                  </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item dropdown">
@@ -226,33 +268,49 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                 FAQ
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  About us
-                </a>
-                <a className="dropdown-item" href="#">
-                  Privacy Policy
-                </a>
-                <a className="dropdown-item" href="#">
-                  Terms and Condition
-                </a>
-                <a className="dropdown-item" href="#">
-                  White Paper
-                </a>
-                <a className="dropdown-item" href="#">
-                  Tokenomics
-                </a>
-                <a className="dropdown-item" href="#">
-                  Roadmap
-                </a>
-                <a className="dropdown-item" href="#">
-                  Operating Agreement
-                </a>
+                <Link href={"/about"}>
+                  <a className="dropdown-item" href="about">
+                    About us
+                  </a>
+                </Link>
+                <Link href={"/PrivacyPolicy"}>
+                  <a className="dropdown-item" href="PrivacyPolicy">
+                    Privacy Policy
+                  </a>
+                </Link>
+                <Link href={"/TermsandConditions"}>
+                  <a className="dropdown-item" href="TermsandConditions">
+                    Terms and Condition
+                  </a>
+                </Link>
+
+                <Link href={"/WhitePaper"}>
+                  <a className="dropdown-item" href="WhitePaper">
+                    White Paper
+                  </a>
+                </Link>
+                <Link href={"/Tokenomics"}>
+                  <a className="dropdown-item" href="Tokenomics">
+                    Tokenomics
+                  </a>
+                </Link>
+                <Link href={"/Roadmap"}>
+                  <a className="dropdown-item">Roadmap</a>
+                </Link>
+
+                <Link href={" /OperatingAgreement"}>
+                  <a className="dropdown-item" href="OperatingAgreement">
+                    Operating Agreement
+                  </a>
+                </Link>
               </div>
             </li>
             <li className="lh-55px">
-              <a href="#" className="btn login-btn ml-50">
-                Contact Us
-              </a>
+              <Link href={"/Contact"}>
+                <a className="dropdown-item" href="Contact">
+                  Contact
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
