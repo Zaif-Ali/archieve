@@ -28,7 +28,7 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
             <li className="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -47,24 +47,31 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                     Privacy Policy
                   </a>
                 </Link>
+                <Link href={"/TermsandConditions"}>
+                  <a className="dropdown-item" href="TermsandConditions">
+                    Terms and Condition
+                  </a>
+                </Link>
 
-                <a className="dropdown-item" href="#">
-                  Terms and Condition
-                </a>
                 <Link href={"/WhitePaper"}>
-                <a className="dropdown-item" href="WhitePaper">
-                  White Paper
-                </a></Link>
+                  <a className="dropdown-item" href="WhitePaper">
+                    White Paper
+                  </a>
+                </Link>
                 <Link href={"/Tokenomics"}>
-                <a className="dropdown-item" href="Tokenomics">
-                  Tokenomics
-                </a></Link>
-                <a className="dropdown-item" href="#">
-                  Roadmap
-                </a>
-                <a className="dropdown-item" href="#">
-                  Operating Agreement
-                </a>
+                  <a className="dropdown-item" href="Tokenomics">
+                    Tokenomics
+                  </a>
+                </Link>
+                <Link href={"/Roadmap"}>
+                  <a className="dropdown-item">Roadmap</a>
+                </Link>
+
+                <Link href={" /OperatingAgreement"}>
+                  <a className="dropdown-item" href="#">
+                    Operating Agreement
+                  </a>
+                </Link>
               </div>
             </li>
             <li className="nav-item dropdown">
